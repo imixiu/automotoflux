@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://automotoflux.com/sitemap/sitemapindex.xml

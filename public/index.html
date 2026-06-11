@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AutoMotoFlux - Vehicle Parts &amp; Accessories Guide</title>
+<meta name="description" content="Expert guides on vehicle parts, auto accessories, and automotive maintenance. From engine components to exterior upgrades, find trusted advice for every driver.">
+<link rel="canonical" href="https://automotoflux.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="AutoMotoFlux - Vehicle Parts &amp; Accessories Guide">
+<meta property="og:description" content="Expert guides on vehicle parts, auto accessories, and automotive maintenance.">
+<meta property="og:url" content="https://automotoflux.com/">
+<meta property="og:image" content="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/hero-svGtgLnrXJ8OLDBY9hPYY1dsDiMfTt.png">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="720">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AutoMotoFlux - Vehicle Parts &amp; Accessories Guide">
+<meta name="twitter:description" content="Expert guides on vehicle parts, auto accessories, and automotive maintenance.">
+<meta name="twitter:image" content="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/hero-svGtgLnrXJ8OLDBY9hPYY1dsDiMfTt.png">
+<link rel="sitemap" type="application/xml" href="/sitemap/sitemapindex.xml">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"AutoMotoFlux","url":"https://automotoflux.com","description":"Expert guides on vehicle parts, auto accessories, and automotive maintenance."}</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--primary:#1e3a5f;--primary-dark:#0f2440;--secondary:#c9a962;--accent:#e63946;--bg:#f5f5f0;--bg-card:#ffffff;--text:#1f2937;--muted:#6b7280;--border:#e5e7eb;--radius:12px}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden}
+a{color:var(--primary);text-decoration:none;transition:color .2s}
+a:hover{color:var(--accent)}
+img{max-width:100%;height:auto}
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+
+/* HEADER */
+.site-header{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;max-width:1200px;margin:0 auto}
+.logo{font-size:22px;font-weight:800;color:var(--primary-dark);letter-spacing:-.5px}
+.logo span{color:var(--secondary)}
+.nav-links{display:flex;gap:8px;list-style:none}
+.nav-links a{color:var(--muted);font-size:14px;font-weight:500;padding:6px 12px;border-radius:6px;transition:all .2s}
+.nav-links a:hover{color:var(--primary);background:#f0f4f8}
+
+/* HERO */
+.hero{background:linear-gradient(135deg,var(--primary-dark) 0%,var(--primary) 60%,#2d5a8e 100%);padding:60px 0;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background:url('https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/hero-svGtgLnrXJ8OLDBY9hPYY1dsDiMfTt.png') center/cover no-repeat;opacity:.18}
+.hero-inner{position:relative;z-index:2;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;max-width:1200px;margin:0 auto;padding:0 24px}
+.hero-content h1{font-size:46px;font-weight:800;line-height:1.15;margin-bottom:16px;color:#fff}
+.hero-content h1 span{color:var(--secondary)}
+.hero-content p{font-size:17px;color:rgba(255,255,255,.8);margin-bottom:28px;line-height:1.6}
+.hero-cta{display:flex;gap:12px;flex-wrap:wrap}
+.btn-primary{background:var(--secondary);color:var(--primary-dark);padding:12px 24px;border-radius:8px;font-weight:700;font-size:15px;transition:all .2s;display:inline-block}
+.btn-primary:hover{background:#dbb96e;color:var(--primary-dark)}
+.btn-secondary{background:rgba(255,255,255,.15);color:#fff;padding:12px 24px;border-radius:8px;font-weight:600;font-size:15px;border:1px solid rgba(255,255,255,.3);transition:all .2s;display:inline-block}
+.btn-secondary:hover{background:rgba(255,255,255,.25);color:#fff}
+.hero-stats{display:flex;gap:32px;margin-top:32px}
+.stat{text-align:center;color:#fff}
+.stat-num{font-size:28px;font-weight:800;color:var(--secondary)}
+.stat-label{font-size:12px;opacity:.7;margin-top:2px;text-transform:uppercase;letter-spacing:.05em}
+.hero-image{border-radius:16px;overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,.4)}
+.hero-image img{width:100%;height:320px;object-fit:cover;display:block}
+
+/* CATEGORIES */
+.categories{padding:64px 0;background:#fff}
+.section-title{text-align:center;margin-bottom:40px}
+.section-title h2{font-size:30px;font-weight:700;color:var(--text);margin-bottom:8px}
+.section-title p{color:var(--muted);font-size:16px}
+.cat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.cat-card{border-radius:var(--radius);overflow:hidden;position:relative;transition:transform .3s,box-shadow .3s;display:block;color:inherit}
+.cat-card:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(0,0,0,.15)}
+.cat-card img{width:100%;height:180px;object-fit:cover;display:block}
+.cat-overlay{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(15,36,64,.95) 0%,rgba(15,36,64,.3) 100%);padding:20px 16px 16px}
+.cat-overlay h3{font-size:18px;font-weight:700;color:#fff;margin-bottom:4px}
+.cat-overlay p{font-size:12px;color:rgba(255,255,255,.7);line-height:1.4}
+.cat-overlay .cat-count{display:inline-block;margin-top:8px;background:var(--secondary);color:var(--primary-dark);padding:2px 10px;border-radius:12px;font-size:11px;font-weight:700}
+
+/* FEATURED */
+.featured{padding:64px 0}
+.featured-grid{display:grid;grid-template-columns:2fr 1fr;gap:24px}
+.featured-main{background:var(--bg-card);border-radius:var(--radius);overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08);transition:transform .3s}
+.featured-main:hover{transform:translateY(-2px)}
+.featured-main img{width:100%;height:260px;object-fit:cover}
+.featured-main .fm-body{padding:24px}
+.fm-tag{display:inline-block;background:rgba(30,58,95,.1);color:var(--primary);padding:4px 12px;border-radius:12px;font-size:12px;font-weight:600;margin-bottom:12px;text-transform:uppercase;letter-spacing:.04em}
+.featured-main h3{font-size:22px;font-weight:700;line-height:1.35;margin-bottom:10px}
+.featured-main h3 a{color:var(--text)}
+.featured-main h3 a:hover{color:var(--primary)}
+.featured-main p{color:var(--muted);font-size:14px;line-height:1.6}
+.featured-side{display:flex;flex-direction:column;gap:16px}
+.feat-item{display:flex;gap:14px;background:var(--bg-card);border-radius:10px;padding:14px;box-shadow:0 2px 8px rgba(0,0,0,.06);transition:box-shadow .2s;text-decoration:none;color:inherit}
+.feat-item:hover{box-shadow:0 6px 20px rgba(0,0,0,.12)}
+.feat-item img{width:80px;height:56px;object-fit:cover;border-radius:6px;flex-shrink:0}
+.feat-item-info .feat-tag{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--secondary);margin-bottom:4px}
+.feat-item-info h4{font-size:13px;font-weight:600;color:var(--text);line-height:1.4}
+
+/* LATEST */
+.latest{padding:64px 0;background:#fff}
+.latest-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.article-card{background:var(--bg-card);border-radius:var(--radius);overflow:hidden;border:1px solid var(--border);transition:all .3s;display:block;color:inherit}
+.article-card:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(0,0,0,.1);border-color:transparent}
+.article-card img{width:100%;height:180px;object-fit:cover;display:block}
+.article-card .ac-body{padding:18px}
+.ac-cat{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--primary);margin-bottom:8px;display:block}
+.article-card h3{font-size:16px;font-weight:600;line-height:1.4;color:var(--text);margin-bottom:8px}
+.ac-meta{font-size:12px;color:var(--muted)}
+
+/* AUTHORS */
+.authors{padding:64px 0}
+.authors-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.author-card{background:var(--bg-card);border-radius:var(--radius);padding:24px 16px;text-align:center;border:1px solid var(--border);transition:all .3s;display:block;color:inherit}
+.author-card:hover{transform:translateY(-3px);box-shadow:0 10px 28px rgba(0,0,0,.1);border-color:var(--primary)}
+.author-card img{width:72px;height:72px;border-radius:50%;object-fit:cover;margin:0 auto 12px;display:block;border:3px solid rgba(30,58,95,.1)}
+.author-card h3{font-size:15px;font-weight:600;color:var(--text);margin-bottom:4px}
+.author-card p{font-size:12px;color:var(--muted);line-height:1.4}
+
+/* WHY US */
+.why{padding:64px 0;background:linear-gradient(135deg,var(--primary-dark),var(--primary))}
+.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.why-item{text-align:center;color:#fff}
+.why-icon{font-size:36px;margin-bottom:12px}
+.why-item h3{font-size:16px;font-weight:700;margin-bottom:8px}
+.why-item p{font-size:13px;opacity:.75;line-height:1.5}
+
+/* NEWSLETTER */
+.newsletter{padding:64px 0;background:#fff}
+.newsletter-inner{max-width:560px;margin:0 auto;text-align:center}
+.newsletter-inner h2{font-size:28px;font-weight:700;margin-bottom:12px}
+.newsletter-inner p{color:var(--muted);margin-bottom:24px}
+.nl-form{display:flex;gap:10px}
+.nl-form input{flex:1;padding:12px 16px;border:1px solid var(--border);border-radius:8px;font-size:14px;outline:none}
+.nl-form input:focus{border-color:var(--primary)}
+.nl-form button{background:var(--primary);color:#fff;padding:12px 20px;border-radius:8px;font-weight:600;font-size:14px;border:none;cursor:pointer;white-space:nowrap;transition:background .2s}
+.nl-form button:hover{background:var(--primary-dark)}
+
+/* FOOTER */
+.site-footer{background:#1a1a2e;color:#d1d5db;padding:48px 0 24px}
+.footer-inner{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:32px;max-width:1200px;margin:0 auto;padding:0 24px}
+.footer-brand .logo{font-size:20px;color:#fff;display:block;margin-bottom:12px}
+.footer-brand p{font-size:13px;color:#9ca3af;line-height:1.6}
+.footer-nav h4{color:#fff;font-size:14px;font-weight:600;margin-bottom:14px}
+.footer-nav ul{list-style:none}
+.footer-nav li{margin-bottom:8px}
+.footer-nav a{font-size:13px;color:#9ca3af;transition:color .2s}
+.footer-nav a:hover{color:var(--secondary)}
+.footer-bottom{border-top:1px solid #374151;margin-top:32px;padding-top:20px;text-align:center;font-size:12px;color:#6b7280;max-width:1200px;margin:32px auto 0;padding:20px 24px 0}
+
+/* RESPONSIVE */
+@media(max-width:1024px){
+  .hero-inner{grid-template-columns:1fr}
+  .hero-image{display:none}
+  .cat-grid{grid-template-columns:repeat(2,1fr)}
+  .featured-grid{grid-template-columns:1fr}
+  .featured-side{display:grid;grid-template-columns:1fr 1fr}
+  .authors-grid{grid-template-columns:repeat(4,1fr)}
+  .footer-inner{grid-template-columns:1fr 1fr}
+  .why-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:768px){
+  .hero-content h1{font-size:32px}
+  .cat-grid{grid-template-columns:1fr}
+  .latest-grid{grid-template-columns:1fr}
+  .authors-grid{grid-template-columns:repeat(2,1fr)}
+  .nav-links{display:none}
+  .hero-stats{gap:16px}
+  .nl-form{flex-direction:column}
+  .featured-side{grid-template-columns:1fr}
+  .footer-inner{grid-template-columns:1fr}
+  .why-grid{grid-template-columns:1fr 1fr}
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo">AutoMoto<span>Flux</span></a>
+    <nav><ul class="nav-links">
+      <li><a href="/engine-parts">Engine Parts</a></li>
+      <li><a href="/exterior-accessories">Exterior</a></li>
+      <li><a href="/interior-upgrades">Interior</a></li>
+      <li><a href="/wheels-tires">Wheels &amp; Tires</a></li>
+      <li><a href="/electrical-systems">Electrical</a></li>
+      <li><a href="/maintenance-tools">Tools</a></li>
+      <li><a href="/author">Authors</a></li>
+    </ul></nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-content">
+      <h1>Your Trusted Guide to <span>Auto Parts &amp; Accessories</span></h1>
+      <p>Expert knowledge on engine components, exterior upgrades, interior enhancements, wheels, electrical systems, and maintenance tools — everything you need to keep your vehicle performing at its best.</p>
+      <div class="hero-cta">
+        <a href="/engine-parts" class="btn-primary">Explore Engine Parts</a>
+        <a href="/maintenance-tools" class="btn-secondary">Maintenance Guides</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><div class="stat-num">500+</div><div class="stat-label">Expert Guides</div></div>
+        <div class="stat"><div class="stat-num">6</div><div class="stat-label">Categories</div></div>
+        <div class="stat"><div class="stat-num">8</div><div class="stat-label">Expert Authors</div></div>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/hero-svGtgLnrXJ8OLDBY9hPYY1dsDiMfTt.png" alt="AutoMotoFlux - Vehicle Parts and Accessories" loading="eager">
+    </div>
+  </div>
+</section>
+
+<section class="categories">
+  <div class="container">
+    <div class="section-title">
+      <h2>Browse by Category</h2>
+      <p>In-depth guides and expert advice across every aspect of vehicle ownership</p>
+    </div>
+    <div class="cat-grid">
+      <a href="/engine-parts" class="cat-card">
+        <img src="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/categories/engine-parts-lpqoyMyav7iwRgfffMqy7hf5LCW9BI.png" alt="Engine Parts" loading="lazy">
+        <div class="cat-overlay">
+          <h3>Engine Parts</h3>
+          <p>Components, diagnostics, and performance upgrades</p>
+          <span class="cat-count">~84 articles</span>
+        </div>
+      </a>
+      <a href="/exterior-accessories" class="cat-card">
+        <img src="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/categories/exterior-accessories-bCgLEgnNmxw3jnGoyYPSwhqfznHnwp.png" alt="Exterior Accessories" loading="lazy">
+        <div class="cat-overlay">
+          <h3>Exterior Accessories</h3>
+          <p>Body kits, lighting, paint protection &amp; styling</p>
+          <span class="cat-count">~84 articles</span>
+        </div>
+      </a>
+      <a href="/interior-upgrades" class="cat-card">
+        <img src="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/categories/interior-upgrades-4pMle2k9nYgQ2BaJ58ZQwGQVGOvZXC.png" alt="Interior Upgrades" loading="lazy">
+        <div class="cat-overlay">
+          <h3>Interior Upgrades</h3>
+          <p>Seats, audio, tech integration &amp; cabin comfort</p>
+          <span class="cat-count">~84 articles</span>
+        </div>
+      </a>
+      <a href="/wheels-tires" class="cat-card">
+        <img src="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/categories/wheels-tires-kyZU78i3R3FpAYpOVkuvmORWkQaJV4.png" alt="Wheels and Tires" loading="lazy">
+        <div class="cat-overlay">
+          <h3>Wheels &amp; Tires</h3>
+          <p>Tire selection, fitment, alignment &amp; seasonal advice</p>
+          <span class="cat-count">~84 articles</span>
+        </div>
+      </a>
+      <a href="/electrical-systems" class="cat-card">
+        <img src="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/categories/electrical-systems-pxOvyu71zvkmcJB2Rzqv44tcf1RJTI.png" alt="Electrical Systems" loading="lazy">
+        <div class="cat-overlay">
+          <h3>Electrical Systems</h3>
+          <p>Batteries, alternators, wiring &amp; modern electronics</p>
+          <span class="cat-count">~84 articles</span>
+        </div>
+      </a>
+      <a href="/maintenance-tools" class="cat-card">
+        <img src="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/categories/maintenance-tools-abJm7v7Oj9QcQVZs9D56QAQyTPyZqi.png" alt="Maintenance Tools" loading="lazy">
+        <div class="cat-overlay">
+          <h3>Maintenance &amp; Tools</h3>
+          <p>Essential tools, DIY tips &amp; professional guidance</p>
+          <span class="cat-count">~84 articles</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="featured">
+  <div class="container">
+    <div class="section-title">
+      <h2>Featured Articles</h2>
+      <p>The latest expert guides from our automotive specialists</p>
+    </div>
+    <div class="featured-grid">
+      <div class="featured-main">
+        <img src="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/categories/engine-parts-lpqoyMyav7iwRgfffMqy7hf5LCW9BI.png" alt="Engine Parts Guide">
+        <div class="fm-body">
+          <span class="fm-tag">Engine Parts</span>
+          <h3><a href="/engine-parts/12-essential-tools-every-jeep-owner-needs-in-their-garage">12 Essential Tools Every Jeep Owner Needs in Their Garage</a></h3>
+          <p>Building a comprehensive tool collection is the foundation of automotive self-sufficiency. Discover the must-have tools that transform complex repairs into manageable DIY projects.</p>
+        </div>
+      </div>
+      <div class="featured-side">
+        <a href="/maintenance-tools/floor-jack-buying-guide-capacity-and-safety-for-your-minivan" class="feat-item">
+          <img src="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/categories/maintenance-tools-abJm7v7Oj9QcQVZs9D56QAQyTPyZqi.png" alt="Floor Jack Guide">
+          <div class="feat-item-info">
+            <div class="feat-tag">Maintenance Tools</div>
+            <h4>Floor Jack Buying Guide: Capacity and Safety for Your Vehicle</h4>
+          </div>
+        </a>
+        <a href="/electrical-systems/3-signs-your-crossovers-serpentine-belt-is-about-to-fail" class="feat-item">
+          <img src="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/categories/electrical-systems-pxOvyu71zvkmcJB2Rzqv44tcf1RJTI.png" alt="Electrical Systems">
+          <div class="feat-item-info">
+            <div class="feat-tag">Electrical Systems</div>
+            <h4>3 Signs Your Serpentine Belt Is About to Fail</h4>
+          </div>
+        </a>
+        <a href="/wheels-tires/best-tires-for-muscle-car-in-summer-conditions-2025-guide" class="feat-item">
+          <img src="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/categories/wheels-tires-kyZU78i3R3FpAYpOVkuvmORWkQaJV4.png" alt="Wheels and Tires">
+          <div class="feat-item-info">
+            <div class="feat-tag">Wheels &amp; Tires</div>
+            <h4>Best Tires for Summer Conditions: 2025 Guide</h4>
+          </div>
+        </a>
+        <a href="/interior-upgrades/how-sound-deadening-material-transforms-your-hatchback-cabin" class="feat-item">
+          <img src="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/categories/interior-upgrades-4pMle2k9nYgQ2BaJ58ZQwGQVGOvZXC.png" alt="Interior Upgrades">
+          <div class="feat-item-info">
+            <div class="feat-tag">Interior Upgrades</div>
+            <h4>How Sound Deadening Material Transforms Your Cabin</h4>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="latest">
+  <div class="container">
+    <div class="section-title">
+      <h2>Latest Guides</h2>
+      <p>Fresh advice and expert analysis added every week</p>
+    </div>
+    <div class="latest-grid">
+      <a href="/exterior-accessories/roof-rack-buying-guide-10-options-for-every-truck-type" class="article-card">
+        <img src="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/categories/exterior-accessories-bCgLEgnNmxw3jnGoyYPSwhqfznHnwp.png" alt="Exterior Accessories" loading="lazy">
+        <div class="ac-body">
+          <span class="ac-cat">Exterior Accessories</span>
+          <h3>Roof Rack Buying Guide: 10 Options for Every Truck Type</h3>
+          <div class="ac-meta">By Sarah Mitchell</div>
+        </div>
+      </a>
+      <a href="/interior-upgrades/the-best-jeep-seat-organization-accessories-for-long-trips" class="article-card">
+        <img src="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/categories/interior-upgrades-4pMle2k9nYgQ2BaJ58ZQwGQVGOvZXC.png" alt="Interior Upgrades" loading="lazy">
+        <div class="ac-body">
+          <span class="ac-cat">Interior Upgrades</span>
+          <h3>The Best Jeep Seat Organization Accessories for Long Trips</h3>
+          <div class="ac-meta">By James Henderson</div>
+        </div>
+      </a>
+      <a href="/electrical-systems/complete-guide-to-truck-fuse-box-locations-and-functions" class="article-card">
+        <img src="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/categories/electrical-systems-pxOvyu71zvkmcJB2Rzqv44tcf1RJTI.png" alt="Electrical Systems" loading="lazy">
+        <div class="ac-body">
+          <span class="ac-cat">Electrical Systems</span>
+          <h3>Complete Guide to Truck Fuse Box: Locations and Functions</h3>
+          <div class="ac-meta">By Marcus Chen</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="authors">
+  <div class="container">
+    <div class="section-title">
+      <h2>Meet Our Experts</h2>
+      <p>Certified technicians, journalists, and specialists who back every guide</p>
+    </div>
+    <div class="authors-grid">
+      <a href="/author/marcus-chen" class="author-card">
+        <img src="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/authors/marcus-chen-hW0Lji8lRollild21fclRbu0e9RNXN.png" alt="Marcus Chen">
+        <h3>Marcus Chen</h3>
+        <p>ASE-Certified Master Technician</p>
+      </a>
+      <a href="/author/sarah-mitchell" class="author-card">
+        <img src="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/authors/sarah-mitchell-54dNGexuwOyeuldKQjuEbRzuunAplV.png" alt="Sarah Mitchell">
+        <h3>Sarah Mitchell</h3>
+        <p>Automotive Journalist</p>
+      </a>
+      <a href="/author/david-kowalski" class="author-card">
+        <img src="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/authors/david-kowalski-xY6OBimhk5E0mBlDhrAn5R6fQYHxiW.png" alt="David Kowalski">
+        <h3>David Kowalski</h3>
+        <p>Automotive Electrical Engineer</p>
+      </a>
+      <a href="/author/rachel-torres" class="author-card">
+        <img src="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/authors/rachel-torres-yVzs2uj0LJ2TTbLKJEo8K603Sp2VkC.png" alt="Rachel Torres">
+        <h3>Rachel Torres</h3>
+        <p>Tire Industry Consultant</p>
+      </a>
+      <a href="/author/james-henderson" class="author-card">
+        <img src="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/authors/james-henderson-H9oVNL8AsonjhztrqAZyfLnxGQTxDy.png" alt="James Henderson">
+        <h3>James Henderson</h3>
+        <p>Interior Design Specialist</p>
+      </a>
+      <a href="/author/lisa-park" class="author-card">
+        <img src="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/authors/lisa-park-IHcYHuZAlKJNBmt7ncRqJ46e0eprj6.png" alt="Lisa Park">
+        <h3>Lisa Park</h3>
+        <p>DIY Maintenance Expert</p>
+      </a>
+      <a href="/author/robert-fernandez" class="author-card">
+        <img src="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/authors/robert-fernandez-KvA3bJBAWPHuhCShxO1YAFc9KNrOTC.png" alt="Robert Fernandez">
+        <h3>Robert Fernandez</h3>
+        <p>Motorsport Engineer</p>
+      </a>
+      <a href="/author/nina-volkov" class="author-card">
+        <img src="https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/authors/nina-volkov-1OkodXUzTmYhQbl7cby95Qspvwrkdh.png" alt="Nina Volkov">
+        <h3>Nina Volkov</h3>
+        <p>Materials Scientist</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="why">
+  <div class="container">
+    <div class="section-title" style="margin-bottom:40px">
+      <h2 style="color:#fff">Why Trust AutoMotoFlux?</h2>
+      <p style="color:rgba(255,255,255,.7)">Every guide is written by verified automotive professionals</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-item">
+        <div class="why-icon">🔧</div>
+        <h3>ASE-Certified Authors</h3>
+        <p>Our writers hold professional certifications and have real-world shop experience</p>
+      </div>
+      <div class="why-item">
+        <div class="why-icon">📋</div>
+        <h3>Step-by-Step Guides</h3>
+        <p>Clear instructions written for both beginners and experienced mechanics</p>
+      </div>
+      <div class="why-item">
+        <div class="why-icon">🏁</div>
+        <h3>Tested Recommendations</h3>
+        <p>Products are evaluated by professionals before we recommend them</p>
+      </div>
+      <div class="why-item">
+        <div class="why-icon">🔄</div>
+        <h3>Regularly Updated</h3>
+        <p>Content is reviewed and refreshed as new parts and technologies emerge</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="newsletter">
+  <div class="container">
+    <div class="newsletter-inner">
+      <h2>Stay in the Know</h2>
+      <p>Get the latest automotive guides and maintenance tips delivered to your inbox — no spam, just expert advice.</p>
+      <form class="nl-form" onsubmit="return false">
+        <input type="email" placeholder="Your email address" aria-label="Email address">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="/" class="logo">AutoMoto<span style="color:#c9a962">Flux</span></a>
+      <p>Expert guides on vehicle parts, auto accessories, and automotive maintenance. Your trusted source for every driver.</p>
+    </div>
+    <div class="footer-nav">
+      <h4>Categories</h4>
+      <ul>
+        <li><a href="/engine-parts">Engine Parts</a></li>
+        <li><a href="/exterior-accessories">Exterior Accessories</a></li>
+        <li><a href="/interior-upgrades">Interior Upgrades</a></li>
+        <li><a href="/wheels-tires">Wheels &amp; Tires</a></li>
+      </ul>
+    </div>
+    <div class="footer-nav">
+      <h4>More</h4>
+      <ul>
+        <li><a href="/electrical-systems">Electrical Systems</a></li>
+        <li><a href="/maintenance-tools">Maintenance &amp; Tools</a></li>
+        <li><a href="/author">Our Authors</a></li>
+      </ul>
+    </div>
+    <div class="footer-nav">
+      <h4>About</h4>
+      <ul>
+        <li><a href="/about">About Us</a></li>
+        <li><a href="/privacy">Privacy Policy</a></li>
+        <li><a href="/terms">Terms of Use</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2026 AutoMotoFlux. All rights reserved. Expert automotive knowledge you can trust.
+  </div>
+</footer>
+
+</body>
+</html>
