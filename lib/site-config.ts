@@ -5,7 +5,7 @@ export const siteConfig = {
   description: "Expert guides on vehicle parts, auto accessories, and automotive maintenance. From engine components to exterior upgrades, find trusted advice for every driver.",
   tagline: "Your Trusted Source for Auto Parts & Accessories Knowledge",
   url: "https://automotoflux.com",
-  ogImage: "https://9bwbxubcyu3vbaiq.public.blob.vercel-storage.com/covers/automotoflux/hero-svGtgLnrXJ8OLDBY9hPYY1dsDiMfTt.png",
+  ogImage: "https://s.alicdn.com/@sc02/kf/A08fc6fd610aa41f5bd7e913d02989e51F.jpg",
   colors: {
     primary: "#1e3a5f",
     primaryDark: "#0f2440",

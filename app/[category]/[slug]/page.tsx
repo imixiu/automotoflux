@@ -87,7 +87,11 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
             <ArticleBody body={article.body} />
             <div className="author-section-card">
               <div className="author-avatar">
-                {article.author ? article.author.charAt(0).toUpperCase() : "?"}
+                {article.author_img ? (
+                  <img src={article.author_img} alt={article.author || "Author"} width={56} height={56} />
+                ) : (
+                  article.author ? article.author.charAt(0).toUpperCase() : "?"
+                )}
               </div>
               <div className="author-info">
                 <h3>{article.author || `${siteConfig.name} Team`}</h3>

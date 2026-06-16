@@ -1,3 +1,5 @@
+User-agent: Googlebot
+Disallow: /
+
 User-agent: *
 Allow: /
-Sitemap: https://automotoflux.com/sitemap/sitemapindex.xml
