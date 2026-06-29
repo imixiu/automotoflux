@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "www.automotoflux.com" }],
+      "destination": "https://automotoflux.com/$1",
+      "permanent": true
+    }
+  ]
+}
