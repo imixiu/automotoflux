@@ -32,6 +32,7 @@ export async function generateMetadata({ params }: PagedCategoryProps): Promise<
   return {
     title: `${cat.label} — Page ${page} | ${siteConfig.shortTitle}`,
     description: `Page ${page} of ${cat.label} articles - ${cat.description}`,
+    robots: { index: false, follow: true },
     alternates: {
       canonical: `${siteConfig.url}/${category}/page/${page}`,
     },
