@@ -1,7 +1,7 @@
 import { notFound, redirect } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getArticlesByCategory } from "@/lib/queries";
+import { getArticlesByType } from "@/lib/queries";
 import { siteConfig } from "@/lib/site-config";
 import { ArticleCard } from "@/components/article/ArticleCard";
 import { CategoryJsonLd } from "@/components/article/CategoryJsonLd";
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: PagedCategoryProps): Promise<
   const cat = siteConfig.categories.find((c) => c.key === category);
   if (!cat) return { title: "Category Not Found" };
 
-  const { total } = await getArticlesByCategory(category, page, PAGE_SIZE);
+  const { total } = await getArticlesByType(category, page, PAGE_SIZE);
   const totalPages = Math.ceil(total / PAGE_SIZE);
   if (page > totalPages) return { title: "Page Not Found" };
 
@@ -59,7 +59,7 @@ export default async function PagedCategoryPage({ params }: PagedCategoryProps) 
   const cat = siteConfig.categories.find((c) => c.key === category);
   if (!cat) notFound();
 
-  const { articles, total } = await getArticlesByCategory(category, page, PAGE_SIZE);
+  const { articles, total } = await getArticlesByType(category, page, PAGE_SIZE);
   const totalPages = Math.ceil(total / PAGE_SIZE);
   if (page > totalPages) notFound();
 

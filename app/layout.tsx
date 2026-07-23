@@ -44,6 +44,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/icon.png?v=2" type="image/png" />
         <meta name="msvalidate.01" content="C396E9907374E29FB46754412E4E3FB7" />
         <script
           type="application/ld+json"

@@ -11,7 +11,8 @@ export const INDEX_HTML = `<!DOCTYPE html>
   gtag('config', 'G-95PY8PSZ0Y');
 </script>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/icon.png?v=2" type="image/png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AutoMotoFlux - Vehicle Parts &amp; Accessories Guide</title>
 <meta name="description" content="Expert guides on vehicle parts, auto accessories, and automotive maintenance. From engine components to exterior upgrades, find trusted advice for every driver.">
 <meta name="msvalidate.01" content="C396E9907374E29FB46754412E4E3FB7" />
